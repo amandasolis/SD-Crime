@@ -17,7 +17,7 @@ Most of the variables below show a positive correlation with one another which i
 
 Using PCA we can determine the variance along different axes of the data and ignore those axes where the variance is very small. We can plot the proportion of variance explained by the resulting principal components to determince how much of it we want to retain.
 
-![PCSummary](Screenshots/PCSummary.png)
+![PCSummary](Screenshots/PC_Summary.png)
 
 Since about 90% of the variance can be explained by the first four principal components, we can look more closely at the loadings for these to see how each of our variables are correlated. Bolded values represent variables that contribute strongly to a component - this threshold is determined by calculating what the loadings would be if all variables contributed equally to that principal component.
 
@@ -31,7 +31,7 @@ We can create biplots to visualize the loadings of each crime on the principal c
 
 To decide how many clusters to use we can look for the “elbow” in the plot below. This plot shows number of clusters on the x-axis and the corresponding sum of squared error on the y-axis. The elbow is considered the point on the graph at which the sum of squared error decreases abruptly- in this instance we can choose k=3. 
 
-![#Clusters](Screenshots/#Clusters.png)
+![#Clusters](Screenshots/%23Clusters.png)
 
 We can use K-Means to cluster the principal components into 3 groups and then we can plot the clustered pairwise scatter plots for the first four components:
 
