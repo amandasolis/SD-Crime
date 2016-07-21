@@ -15,7 +15,7 @@ Most of the variables below show a positive correlation with one another which i
 
 ### Principal Components Analysis (PCA)
 
-Using PCA we can determine the variance along different axes of the data and ignore those axes where the variance is very small. We can plot the proportion of variance explained by the resulting principal components to determince how much of it we want to retain.
+Using PCA we can determine the variance along different axes of the data and ignore those axes where the variance is very small. We can plot the proportion of variance explained by the resulting principal components to determine how much of it we want to retain.
 
 ![PCSummary](Screenshots/PC_Summary.png)
 
@@ -48,3 +48,8 @@ From these visualizations it appears that the clusters are separated into tiers 
 ### Future Directions
 - Weighting the variables based on how heinous the crime.
 - Including attributes for neighborhood population and size. 
+
+### Resources
+- http://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/
+- http://strata.uga.edu/6370/lecturenotes/principalComponents.html
+- http://www.r-bloggers.com/pca-and-k-means-clustering-of-delta-aircraft/
